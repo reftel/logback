@@ -274,7 +274,7 @@ public final class Logger implements org.slf4j.Logger, LocationAwareLogger, Appe
     }
 
     /**
-     * Remove the appender passed as parameter form the list of appenders.
+     * Remove the appender passed as parameter from the list of appenders.
      */
     public boolean detachAppender(Appender<ILoggingEvent> appender) {
         if (aai == null) {
